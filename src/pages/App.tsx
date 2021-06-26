@@ -75,7 +75,6 @@ export default function App() {
           <TopLevelModals />
           <Web3ReactManager>
             <Switch>
-              <Route exact strict path="/swap/:outputCurrency" component={RedirectToSwap} />
               <Route exact strict path="/swap" component={Swap} />
               <Route
                 exact
